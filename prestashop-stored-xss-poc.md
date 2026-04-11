@@ -1,4 +1,4 @@
-<img width="948" height="155" alt="image" src="https://github.com/user-attachments/assets/7af6813c-e5a8-47ab-a4b3-62210d246a96" /># [Security] Stored XSS in PrestaShop Back Office Module Rendering
+# [Security] Stored XSS in PrestaShop Back Office Module Rendering
 
 ## Summary
 
