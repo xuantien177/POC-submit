@@ -74,7 +74,7 @@ xss_payload_module.zip
 
 ---
 
-### PoC Source Code
+### PoC Source Code `xss_payload_module.php`
 
 ```php
 <?php
@@ -127,13 +127,16 @@ class Xss_Payload_Module extends Module
 
 1. Package the PoC module as a ZIP file
 <img width="948" height="155" alt="image" src="https://github.com/user-attachments/assets/cc317277-c28c-4974-9344-062208da68ba" />
-3. Log in to PrestaShop Back Office (admin)
-4. Navigate to `Modules → Module Manager`
+
+2. Log in to PrestaShop Back Office (admin)
+3. Navigate to `Modules → Module Manager`
 <img width="1845" height="812" alt="image" src="https://github.com/user-attachments/assets/d33437fb-5074-440d-b190-e5f9894534a4" />
 <img width="1849" height="762" alt="image" src="https://github.com/user-attachments/assets/3b101456-4ad2-4200-a39d-dfd3ff98e476" />
 <img width="1668" height="539" alt="image" src="https://github.com/user-attachments/assets/442ea87e-dd70-4762-87d9-de68ff467323" />
 <img width="1846" height="793" alt="image" src="https://github.com/user-attachments/assets/01d0062e-3928-4e26-9d7b-67e067354eed" />
-6. Click **Upload a module** and upload the PoC
+ 4. Click Upload a module and upload xss_payload_module.zip.
+
+5. Click **Upload a module** and upload the PoC
 
 ### Result:
 
@@ -182,3 +185,4 @@ neitsploit1707
 ## References
 
 * [https://github.com/xuantien177](https://github.com/xuantien177/POC-submit)
+* https://github.com/PrestaShop/prestaShop/
